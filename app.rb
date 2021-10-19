@@ -14,7 +14,7 @@ def fight(player1, player2)
     player1.attacks (player2)
     if player2.life_points <= 0
       break
-    end
+    end 
     puts "passons a la phase d'attaque pour #{player2.name} :"
     player2.attacks (player1)
     if player2.life_points <= 0

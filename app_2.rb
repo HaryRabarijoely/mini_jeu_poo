@@ -5,7 +5,7 @@ require_relative  'lib/game'
 require_relative  'lib/player'
 
 @player1
-@player2
+@player2 
 @human
 @enemies = []
 
